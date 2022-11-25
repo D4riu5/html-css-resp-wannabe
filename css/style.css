@@ -131,10 +131,23 @@ img {
 /* TABLET (768px and lower) */
 @media screen and (max-width: 768px) {
     .container {
-    width: auto;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+        width: auto;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
 }
 
+/* MOBILE (480px and lower) */
+@media screen and (max-width: 480px) {
+    .row {
+        flex-wrap: wrap;
+    }
 
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right{
+        width: 100%;
+         margin-bottom: 3rem;
+    }
+}
