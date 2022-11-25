@@ -132,8 +132,6 @@ img {
 @media screen and (max-width: 768px) {
     .container {
         width: auto;
-        margin: 0 auto;
-        padding: 0 20px;
     }
 }
 
@@ -148,6 +146,6 @@ img {
     .why-us .col-left,
     .why-us .col-right{
         width: 100%;
-         margin-bottom: 3rem;
+        margin-bottom: 3rem;
     }
 }
